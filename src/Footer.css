@@ -1,0 +1,43 @@
+footer {
+  background-color: #0f0200;
+  color: white;
+  padding: 150px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+footer a {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 3;
+  text-decoration: none;
+  padding: 30px;
+  color: white;
+}
+
+footer i {
+  font-size: 70px;
+}
+
+.linkButton {
+  font-size: 40px;
+  background-color: #6c3a12;
+  border: #0f0200;
+  color: white;
+}
+
+.linkButton:hover {
+  transition: 150ms;
+  background-color: white;
+  color: #0f0200;
+}
+
+footer p {
+  font-size: 25px;
+  margin-top: 50px;
+}
