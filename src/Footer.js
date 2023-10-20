@@ -4,7 +4,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div>
-      <footer className="mb-5 mt-5 text-center">
+      <footer className="mt-5 text-center">
         <div className="contactBox">
           <h3>For further communication</h3>
           <a className="btn linkButton mt-3 mb-4" href="/contact">
