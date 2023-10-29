@@ -25,6 +25,18 @@ export default function Body() {
             a unique knowledge base, I am confident that I will be an asset in
             this role.{" "}
           </p>
+          <p>
+            I am passionate about singing 🎤, travelling 🛫, trying new food
+            🥙🥘, helping others 🤝 and much more. Everyday is a chance to do
+            amazing things.
+          </p>
+          <p>
+            I am currently in the design stage of my application for a handy
+            blog for those at home needing a little extra help.
+          </p>
+          <p>
+            I am currently based in <strong>Birmingham, UK </strong>
+          </p>
         </div>
       </section>
 
