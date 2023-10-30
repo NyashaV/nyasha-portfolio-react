@@ -36,7 +36,16 @@ export default function Body() {
           </p>
           <p>
             I am currently based in <strong>Birmingham, UK </strong>
-          </p>
+          </p>{" "}
+          <a
+            href="https://www.dropbox.com/scl/fi/0bp5j505dwl4c9suck2uy/Nyasha-Tavatya-Software-Developer-CV.docx?rlkey=o9uhmqico8d949sfgg9lzvnok&dl=0"
+            target="_blank"
+            rel="noreferrer"
+            className=" resume btn btn-secondary btn-lg btn-block "
+            type="button"
+          >
+            My Resume
+          </a>
         </div>
       </section>
 
@@ -47,12 +56,32 @@ export default function Body() {
           rel="noreferrer"
         >
           {" "}
-          <h2>Project JavaScript Weather App</h2>
+          <h2 className="mb-5">Project Weather App</h2>
         </a>
-        <section className="grid gridThreeColumns">
-          <img src={IMAGES.WeatherAppOne} alt="" />
-          <img src={IMAGES.WeatherAppTwo} alt="" />
-          <img src={IMAGES.WeatherAppThree} alt="" />
+        <section className="grid gridTwoColumns">
+          <img
+            className="projectImages"
+            src={IMAGES.WeatherAppTwo}
+            alt=""
+            href="https://nyashaweatherapp-js.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          />
+
+          <h4 className="mt-5">
+            I have developed a sleek and user-friendly weather application using
+            JavaScript that provides real-time weather information at your
+            fingertips. The application boasts a clean and intuitive interface,
+            making it easy for users to access the latest weather data for their
+            desired locations.
+            <br />
+            Staying informed about the weather has never been more convenient
+            and visually appealing. Users can simply input a city or location
+            name, and the application retrieves up-to-date weather conditions,
+            including temperature, humidity, wind speed, and a detailed
+            forecast. It also features visually appealing icons and graphics to
+            represent weather conditions, enhancing the user experience.{" "}
+          </h4>
         </section>
 
         <a
@@ -60,11 +89,23 @@ export default function Body() {
           target="_blank"
           rel="noreferrer"
         >
-          <h2>Project React Dictionary</h2>
+          <h2 className="mb-5">Project React Dictionary</h2>
         </a>
-        <section className="grid gridThreeColumns">
-          <img src={IMAGES.PinkDictionaryOne} alt="" />
-          <img src={IMAGES.PinkDictionaryTwo} alt="" />
+        <section className="grid gridTwoColumns">
+          <h4 className="mt-5">
+            I've developed an innovative dictionary application built with React
+            that delivers a seamless and dynamic language reference experience.
+            This app combines the power of a dictionary with the flexibility of
+            a modern web application.
+            <br /> This dictionary app is a valuable resource for students,
+            writers, and language enthusiasts, providing an efficient and
+            engaging way to explore and expand one's vocabulary.
+          </h4>
+          <img
+            className="projectImages"
+            src={IMAGES.PinkDictionaryOne}
+            alt=""
+          />
         </section>
 
         <a
@@ -72,13 +113,20 @@ export default function Body() {
           target="_blank"
           rel="noreferrer"
         >
-          <h2>Project Philosophy Blog</h2>{" "}
+          <h2 className="mb-5">Project Philosophy Blog</h2>{" "}
         </a>
-        <section className="grid gridThreeColumns">
-          <img src={IMAGES.OneRoadOne} alt="" />
-          <img src={IMAGES.OneRoadTwo} alt="" />{" "}
-          <img src={IMAGES.OneRoadThree} alt="" />{" "}
-          <img src={IMAGES.OneRoadFour} alt="" />
+        <section className="grid gridTwoColumns">
+          <img className="projectImages" src={IMAGES.OneRoadFive} alt="" />
+          <h4 className="mt-5">
+            I've meticulously crafted a thought-provoking philosophy blog that
+            showcases the power of advanced CSS and HTML, incorporating dynamic
+            grid layouts to present philosophical insights in a visually
+            engaging manner. <br />
+            Utilizing advanced CSS techniques, the layout is responsive, making
+            it accessible and visually appealing across various devices. I've
+            seamlessly integrated embedded content, enriching the blog with
+            multimedia elements.
+          </h4>
         </section>
 
         <a
@@ -86,14 +134,17 @@ export default function Body() {
           target="_blank"
           rel="noreferrer"
         >
-          <h2>Project Responsive Travel Blog</h2>
+          <h2 className="mb-5">Project Responsive Travel Blog</h2>
         </a>
-        <section className="grid gridThreeColumns">
-          <img src={IMAGES.TravelBlogOne} alt="" />
-          <img src={IMAGES.TravelBlogTwo} alt="" />{" "}
-          <img src={IMAGES.TravelBlogThree} alt="" />{" "}
-          <img src={IMAGES.TravelBlogFour} alt="" />{" "}
-          <img src={IMAGES.TravelBlogFive} alt="" />
+        <section className="grid gridTwoColumns">
+          <h4 className="mt-5">
+            I've designed a captivating travel guide using responsive HTML and
+            CSS, offering a visually appealing and informative resource for
+            globetrotters and adventure seekers. This travel guide seamlessly
+            adapts to various screen sizes, making it accessible on both
+            desktops and mobile devices.{" "}
+          </h4>
+          <img className="projectImages" src={IMAGES.TravelBlogOne} alt="" />
         </section>
       </section>
     </div>

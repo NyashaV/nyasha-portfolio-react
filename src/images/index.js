@@ -3,6 +3,7 @@ const IMAGES = {
   OneRoadTwo: require("./OneRoadToFreedomTwo.png"),
   OneRoadThree: require("./OneRoadToFreedomThree.png"),
   OneRoadFour: require("./OneRoadToFreedomFour.png"),
+  OneRoadFive: require("./OneRoadToFreedomFive.png"),
 
   WeatherAppOne: require("./WeatherAppOne.png"),
   WeatherAppTwo: require("./WeatherAppTwo.png"),

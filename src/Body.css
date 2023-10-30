@@ -13,6 +13,9 @@ section {
 .grid {
   display: grid;
   grid-gap: 100px;
+  background-color: #2703048b;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .gridTwoColumns {
@@ -35,4 +38,63 @@ section {
   font-size: 25px;
   opacity: 0.7;
   margin-top: 30px;
+}
+
+.resume {
+  font-size: 25px;
+  background-color: #270304;
+  width: 100%;
+  border-color: #270304;
+}
+
+.resume:hover {
+  transition: 200ms ease-in-out;
+  background-color: white;
+  color: #270304;
+}
+
+.projectDisplay a {
+  text-decoration: none;
+}
+
+.projectDisplay h2 {
+  color: white;
+  margin-top: 150px;
+}
+
+.gridThreeColumns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projectImages {
+  max-width: 100%;
+}
+
+.grid h5,
+h4 {
+  opacity: 0.7;
+}
+
+@media (max-width: 960px) {
+  .grid {
+    grid-gap: 50px;
+
+    padding: 10px;
+  }
+
+  .introParagraph h2 {
+    font-size: 25px;
+  }
+
+  .introParagraph p {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .gridTwoColumns {
+    grid-template-columns: 1fr;
+  }
 }

@@ -7,7 +7,10 @@ export default function Footer() {
       <footer className="mt-5 text-center">
         <div className="contactBox">
           <h3>For further communication</h3>
-          <a className="btn linkButton mt-3 mb-4" href="/contact">
+          <a
+            className="btn linkButton mt-3 mb-4"
+            href="mailto:ny_vanessa@hotmail.co.uk"
+          >
             Contact me
           </a>
         </div>

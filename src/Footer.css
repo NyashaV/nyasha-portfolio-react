@@ -42,3 +42,25 @@ footer p {
   font-size: 25px;
   margin-top: 50px;
 }
+
+@media (max-width: 960px) {
+  footer {
+    padding: 0;
+  }
+
+  footer h3 {
+    font-size: 20px;
+  }
+
+  .linkButton {
+    font-size: 15px;
+  }
+
+  footer p {
+    font-size: 20px;
+  }
+
+  footer a {
+    font-size: 20px;
+  }
+}
